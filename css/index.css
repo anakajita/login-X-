@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 100%;
+    height: 100vh;
+}
+main h1{
+    font-family: "Roboto", serif;
+    font-weight: bold;
+    font-size: 3.5em;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 10%;
+
+}
+
+.inpt{
+    width: 80%;
+    height: 60px;
+    float: left;
+    margin-left: 10%;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid;
+    box-shadow: 1px 1px 3px #72727244;
+    margin-top: 5%;
+    background-color: #000000;
+    color: #99999944;
+    text-indent: 40px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 1.1em;
+}
+
+#dont{
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    color: #555;
+    font-weight: bold;
+    margin-top: 5%;
+}
+#dont a{
+    text-decoration: none;
+    color: #0c9ac5;
+}
+
+
+button{
+    width: 80%;
+    height: 60px;
+    float: left;
+    margin-left: 10%;
+    border-radius: 30px;
+    outline: none;
+    border: 0;
+    box-shadow: 1px 1px 3px #33333344;
+    margin-top: 5%;
+    text-indent: 40px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 1.1em;
+}
+button{
+        width: 80%;
+        height: 60px;
+        float: left;
+        margin-left: 10%;
+        border-radius: 30px;
+        outline: none;
+        border: 0;
+        box-shadow: 1px 1px 3px #000000;
+        margin-top: 5%;
+        text-indent: 40px;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-size: 1.1em;
+        text-align: center;
+}
+body{
+    background-color: black;
+    color: #fff;
+}
+
+#botao1 {
+    background-image: url('../img/1298745_google_brand_branding_logo_network_icon.png');
+  background-size: 20px 20px;
+  background-position: center left;
+  background-repeat: no-repeat;
+  padding-left: 30px;
+}
+#botao2 {
+    background-image: url('../img/104490_apple_icon.png');
+  background-size: 20px 20px;
+  background-position: center left;
+  background-repeat: no-repeat;
+  padding-left: 30px;
+}
+
+#botao4 {
+    width: 80%;
+    height: 60px;
+    float: left;
+    margin-left: 10%;
+    border-radius: 30px;
+    outline: none;
+    background-color: #000000;
+    color: #cccaca44;
+    border: 2px solid;
+    box-shadow: 1px 1px 3px #c0b9b944;
+    margin-top: 5%;
+    text-indent: 80px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 1.1em;
+    text-align: center;
+}
